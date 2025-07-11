@@ -89,7 +89,7 @@ const Header: React.FC = () => {
             <div className="absolute top-16 right-6 w-48 bg-slate-800 text-white rounded-lg shadow-lg flex flex-col space-y-4 py-4 px-6 md:hidden z-50 animate-fade-in">
               {[
                 { label: 'About', id: 'about' },
-                { label: 'Skills & Experience', id: 'skills' },
+                { label: 'Skills', id: 'skills' },
                 { label: 'Projects', id: 'projects' },
                 { label: 'Achievements', id: 'achievements' },
                 { label: 'Contact', id: 'contact' },
