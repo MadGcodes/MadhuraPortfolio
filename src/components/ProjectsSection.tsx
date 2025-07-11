@@ -4,15 +4,6 @@ import { Github, PlayCircle } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Infinity Corridor",
-      description: "Developed Infinity Corridor an app that provides a unified platform where users can immerse themselves in a multitude of opportunities, ranging from dynamic competitions and hackathons and prestigious IEEE Conferences.",
-      image: "/lovable-uploads/infii.jpg",
-      techStack: ["Flutter", "Firebase", "App Development"],
-      githubLink: "https://github.com/VESIT-CMPN-Projects/2023-24-SE3",
-      liveLink: "https://drive.google.com/file/d/1CWBlij1DH1pvV9BI_kTPpvnIz4EEYsWm/view?usp=sharing",
-      gradient: "from-purple-600 to-pink-600"
-    },
-    {
       title: "Aapda Mitra - AI-Powered Disaster Resilience Platform",
       description: "Developed Aapda Mitra, an advanced AI-powered disaster resilience platform featuring real-time predictive analytics and a DeepSeek fine tuned emotional support chatbot. Engineered social media sentiment analysis with BERT NLP models and implemented XGBoost and Random Forest algorithms for precise flood and drought forecasting.",
       image: "/lovable-uploads/a1.jpg",
@@ -47,7 +38,17 @@ const ProjectsSection = () => {
       githubLink: "https://github.com/MadGcodes/Pomoflo.git",
       liveLink: "https://drive.google.com/file/d/17GBWRui49nh6Vsp2PtA0tJLp8xyGoHvk/view?usp=sharing",
       gradient: "from-cyan-600 to-purple-600"
+    },
+    {
+      title: "Infinity Corridor",
+      description: "Developed Infinity Corridor an app that provides a unified platform where users can immerse themselves in a multitude of opportunities, ranging from dynamic competitions and hackathons and prestigious IEEE Conferences.",
+      image: "/lovable-uploads/infii.jpg",
+      techStack: ["Flutter", "Firebase", "App Development"],
+      githubLink: "https://github.com/VESIT-CMPN-Projects/2023-24-SE3",
+      liveLink: "https://drive.google.com/file/d/1CWBlij1DH1pvV9BI_kTPpvnIz4EEYsWm/view?usp=sharing",
+      gradient: "from-purple-600 to-pink-600"
     }
+    
   ];
 
   return (
